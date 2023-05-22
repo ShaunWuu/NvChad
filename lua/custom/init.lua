@@ -37,6 +37,9 @@ vim.o.listchars = "space:·"
 -- always show tabline
 vim.o.showtabline = 2
 
+-- shell
+-- vim.o.shell = "pwsh.exe"
+
 -- neovide 字体
 vim.opt.guifont = {"JetBrainsMono Nerd Font", ":h11"}
 
