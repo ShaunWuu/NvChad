@@ -121,3 +121,17 @@ If you like NvChad and would like to support & appreciate it via donation then I
 
 - [Elianiva](https://github.com/elianiva) helped me with NeoVim Lua related issues many times, NvChad wouldn't exist without his help at all as he helped me in my initial neovim journey!
 - @lorvethe for making the beautiful NvChad logo.
+
+## Install
+
+Linux:
+
+```shell
+git clone https://github.com/ShaunWuu/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+Windows:
+
+```shell
+git clone https://github.com/ShaunWuu/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+```
