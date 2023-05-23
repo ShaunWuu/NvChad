@@ -40,8 +40,9 @@ vim.o.showtabline = 2
 -- shell
 -- vim.o.shell = "pwsh.exe"
 
--- neovide 字体
+-- neovide 设置
 vim.opt.guifont = {"JetBrainsMono Nerd Font", ":h11"}
+vim.g.neovide_remember_window_size = true
 
 -- 支持操作系统复制粘贴
 if vim.g.neovide then
