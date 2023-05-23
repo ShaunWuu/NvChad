@@ -7,12 +7,15 @@ local plugins = {
   --   end
   -- }
   -- 之后再执行 :Lazy sync 命令来让插件懒加载, 这样只有在第一次打开 crystal 文件的时候才会加载这个插件,
-  -- {
-  --  "neovim/vim-lspconfig",
-  --  config = function ()
-  --    require "plugins.configs.lspconfig"
-  --    require "custom.configs.lspconfig"
-  --  end
-  -- }
+  {
+   "neovim/vim-lspconfig",
+   config = function ()
+     require "plugins.configs.lspconfig"
+     require "custom.configs.lspconfig"
+   end
+  },
+  {
+    "williamboman/nvim-lsp-installer"
+  }
 }
 return plugins

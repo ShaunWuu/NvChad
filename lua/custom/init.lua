@@ -1,5 +1,5 @@
 -- 换行线长度80
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 -- 文件编码
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = 'utf-8'
